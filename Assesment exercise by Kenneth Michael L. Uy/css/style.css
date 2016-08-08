@@ -1,0 +1,103 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import 'https://fonts.googleapis.com/css?family=Amiko:700';
+
+body{
+	background-color:#334d4d;
+	
+}
+
+#form{
+	
+	width:100%;
+	height:50%;
+	background-color:#e0ebeb;
+	padding:20px;	
+	margin-top:50px;
+	
+	
+}
+
+#p{
+	color:red;
+}
+
+#home-body{
+	width:90%;
+	height:100%;
+	background-color:white;
+	
+}
+
+#register{
+	float:right;
+}
+
+#name-pos{
+	padding:10px;
+	
+	
+}
+
+
+
+#form-signup{
+	width:100%;
+	height:80%;
+	background-color:#e0ebeb;
+	padding:20px;	
+	margin-top:50px;
+	
+}
+
+#button{
+	background-color:#cacaca;
+	
+}
+
+#sign-up{
+	float:right;
+}
+
+#outer-div{
+	height:100%;
+	width:75%;
+	background-image: url("../img/bg.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	
+}
+
+#footer{
+	height:5%;
+	width:100%;
+	background-color:#e0ebeb;
+	position : fixed;
+    bottom : 0;
+	padding-left:15px;
+	
+	
+}
+
+a:hover{
+	color:blue;
+}
+
+
+.inner-addon { 
+    position: relative; 
+}
+
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
